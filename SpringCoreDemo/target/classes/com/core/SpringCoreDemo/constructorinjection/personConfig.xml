@@ -11,18 +11,30 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person1">
 		<constructor-arg value="Sumit Agarwal" />
 		<constructor-arg value="10001" />
+		<constructor-arg ref="cperson5" />
 	</bean>
 	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person2">
 		<constructor-arg value="Rohan Agarwal" />
 		<constructor-arg value="10034" />
+		<constructor-arg ref="cperson5" />
 	</bean>
 	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person3">
 		<constructor-arg value="Piyush Agarwal" />
 		<constructor-arg value="10043" />
+		<constructor-arg ref="cperson5" />
 	</bean>
 	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person4">
 		<constructor-arg value="Prayag Agarwal" />
 		<constructor-arg value="10076" />
+		<constructor-arg ref="cperson5" />
+	</bean>
+	<bean class="com.core.SpringCoreDemo.constructorinjection.Certi" name="cperson5">
+		<constructor-arg value="AWS" />
+	</bean>
+	
+	<bean class="com.core.SpringCoreDemo.constructorinjection.Addition" name="add1">
+		<constructor-arg type="int" value="1000" />
+		<constructor-arg type="int" value="30" />
 	</bean>
 	
 
