@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd 
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- This is my bean for the student class -->
+	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person1">
+		<constructor-arg value="Sumit Agarwal" />
+		<constructor-arg value="10001" />
+	</bean>
+	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person2">
+		<constructor-arg value="Rohan Agarwal" />
+		<constructor-arg value="10034" />
+	</bean>
+	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person3">
+		<constructor-arg value="Piyush Agarwal" />
+		<constructor-arg value="10043" />
+	</bean>
+	<bean class="com.core.SpringCoreDemo.constructorinjection.Person" name="person4">
+		<constructor-arg value="Prayag Agarwal" />
+		<constructor-arg value="10076" />
+	</bean>
+	
+
+
+
+</beans>

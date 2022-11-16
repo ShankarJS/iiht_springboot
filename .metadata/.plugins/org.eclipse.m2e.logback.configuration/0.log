@@ -7,3 +7,11 @@
 2022-11-16 12:22:04,858 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\shankar\iihtcasestudy\SpringCoreDemo\src\main\resources
 2022-11-16 12:22:04,859 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-16 12:22:04,861 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\shankar\iihtcasestudy\SpringCoreDemo\src\test\resources
+2022-11-16 12:40:21,089 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.iiht:springmvcdemo:0.0.1-SNAPSHOT @ D:\shankar\iihtcasestudy\springmvcdemo\pom.xml.
+2022-11-16 12:40:21,325 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springmvcdemo/src/main/java
+2022-11-16 12:40:21,327 [Worker-9: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springmvcdemo/src/test/java
+2022-11-16 12:40:21,393 [Worker-9: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-11-16 12:40:22,829 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 12:40:22,830 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\shankar\iihtcasestudy\springmvcdemo\src\main\resources
+2022-11-16 12:40:22,832 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-16 12:40:22,832 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\shankar\iihtcasestudy\springmvcdemo\src\test\resources
