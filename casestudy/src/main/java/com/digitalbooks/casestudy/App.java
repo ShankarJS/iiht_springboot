@@ -21,6 +21,5 @@ public class App
         System.out.println(book1.getPublisher());
         System.out.println(book1.getTitle());
         System.out.println(book1.getDate());
-     
     }
 }
